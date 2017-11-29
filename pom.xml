@@ -28,10 +28,10 @@
               <goal>copy-resources</goal>
             </goals>
             <configuration>
-              <outputDirectory>${basedir}</outputDirectory>
+              <outputDirectory>D:\\practice\\hard</outputDirectory>
               <resources>          
                 <resource>
-                  <directory>${basedir}/target/checkout</directory>
+                  <directory>D:\\practice\\hard/target/checkout</directory>
                   <filtering>true</filtering>
                 </resource>
               </resources>              
