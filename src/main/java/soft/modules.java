@@ -14,6 +14,7 @@ public class modules
             System.out.print("1. Addition\n");
             System.out.print("2. Subtraction\n");
             System.out.print("3. Division\n");
+	System.out.print("4. Multiplication\n");
            ch=scan.nextInt();
    switch(ch)
             {
@@ -35,9 +36,14 @@ public class modules
                     res = a / b;
                     System.out.print("Result = " + res);
                     break;
-
+		case 4 : System.out.print("Enter Two Number : ");
+                    a = scan.nextFloat();
+                    b = scan.nextFloat();
+                    res = a * b;
+                    System.out.print("Result = " + res);
+                    break;
             }
             System.out.print("\n---------------------------------------\n");
-        }while(ch != 3);       
+        }while(ch != 4);       
     }
 }
